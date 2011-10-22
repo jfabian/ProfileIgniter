@@ -1,0 +1,19 @@
+ProfileIgniter
+=============
+
+Es una libreria para Codeigniter 2.0 que permite hacer un debugeo mas sencillo para una mejor performance de nuestra aplicacion.
+
+Requerimientos
+==============
+
+- Codeigniter 2.0
+- FirePHP 0.6.2
+
+Manual
+======
+
+Compiamos los archivos firephp.php y Profiler.php en la carpeta /application/libraries y luego para activar el profiler en el controlador solo lo activamos con:
+
+$this->output->enable_profiler(TRUE);
+
+En la carpeta example encontraremos un ejemplo para un controlador determinado.
